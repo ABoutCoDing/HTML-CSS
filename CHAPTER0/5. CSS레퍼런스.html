@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>예제</title>
+ 
+    <style>
+        h1 {
+            color: #ff0000;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+/*
+        p:not(.notClass) {
+            color: blue;
+        }
+        
+        h3::before {
+            content: "정말? ";
+        }
+        
+        h3::after {
+            content: " 그렇군요. ";
+        }
+        
+        .conA {
+            color: aqua;
+        }
+        
+        .conB + .conC {
+            color: red;
+        }
+        
+        * {
+            font-size: 40px;
+        }
+        
+        :root{
+            font-size: 20px;
+        }
+        
+        .conC:hover {
+            color: black;
+        }
+        
+        span:first-child {
+            background-color: yellow;
+        }
+        
+        span:nth-child(2) {
+            background-color: green;
+        }  
+*/
+  
+        /* 768 보다 커진다면 */
+/*
+        @media (min-width: 768px) { 
+            span:nth-child(1) {
+                font-size: 5px;
+            }
+        }
+*/
+        
+        /* 768 보다 작아진다면 */
+/*
+        @media (max-width: 768px) { 
+            span:nth-child(2) {
+                font-size: 5px;
+            }
+        }
+*/
+        
+    </style>
+</head>
+
+<body>
+    <h1>안녕하세요!</h1>
+    <h2>안녕하세요!</h2>
+    <h3>안녕하세요!</h3>
+    
+    <p>후후후</p>
+    <p class="notClass">후후후</p>
+    
+    <div class="conA">conA</div>
+    
+    <div class="conB">conB</div>
+    <div class="conC">conC</div>
+    
+    <div class="conD">
+        <span>Child1</span>
+        <span>Child2</span>
+    </div>
+</body>
+</html>
