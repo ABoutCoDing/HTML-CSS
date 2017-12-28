@@ -317,7 +317,6 @@ footer .container {
     line-height: 2em;
     border-radius: 50%;
     text-align: center;
-    text-rendering: optimizeLegibility;
 }
 
 .footD a:hover{
